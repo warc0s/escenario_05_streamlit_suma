@@ -2,6 +2,13 @@
 
 Una calculadora interactiva y moderna construida con Streamlit que ofrece múltiples operaciones matemáticas.
 
+## 🌐 ¡Pruébala ahora!
+
+La calculadora está disponible en línea en Streamlit Cloud:
+**[https://calculadora-avanzada.streamlit.app/](https://calculadora-avanzada.streamlit.app/)**
+
+¡No necesitas instalar nada! Solo haz clic en el enlace y comienza a calcular.
+
 ## ✨ Características
 
 - **Operaciones Básicas**
@@ -21,7 +28,7 @@ Una calculadora interactiva y moderna construida con Streamlit que ofrece múlti
   - Potencia al Cuadrado
   - Valor Absoluto
 
-## 🚀 Instalación
+## 🚀 Instalación Local
 
 1. Clona este repositorio:
 ```bash
