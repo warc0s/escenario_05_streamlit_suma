@@ -4,29 +4,25 @@ Este proyecto es una aplicación web construida con Streamlit que permite a los 
 
 ## Requisitos
 
-- Python 3.7 o superior
-- Streamlit
+- Docker
 
 ## Instalación
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/warc0s/escenario_05_streamlit_suma
    cd escenario_05_streamlit_suma
    ```
 
-2. Instala las dependencias:
+2. Construye la imagen de Docker:
    ```bash
-   pip install -r requirements.txt
+   docker build -t streamlit-suma .
    ```
 
-## Uso
-
-Para ejecutar la aplicación, utiliza el siguiente comando:
-
-```bash
-streamlit run app.py
-```
+3. Ejecuta el contenedor:
+   ```bash
+   docker run -p 8501:8501 streamlit-suma
+   ```
 
 Luego, abre tu navegador y ve a `http://localhost:8501` para interactuar con la aplicación.
 
